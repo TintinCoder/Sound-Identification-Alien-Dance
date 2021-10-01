@@ -1,0 +1,50 @@
+/* Importing All Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&family=Recursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Gemunu+Libre:wght@800&family=Recursive&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+}
+#start{
+    outline: none;
+    font-family: 'Faster One', cursive;
+    border: 2px solid black;
+    font-size: 19px;
+}
+.heading{
+    letter-spacing: 5px;
+    color: #42a2fc;
+    font-weight: bolder;
+}
+.aliens{
+    width: 200px;
+    height: auto;
+}
+p{
+    font-family: 'Gemunu Libre', sans-serif;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 6vh;
+    padding: 1.5vh;
+    font-family: 'Recursive', sans-serif;
+    font: italic;
+    text-shadow: 1px 1px pink;
+    color: black;
+    background-color: white;
+
+}
+.info{
+    font-family: 'Faster One', cursive;
+}
+#footer-text{
+    letter-spacing: 2px;
+}
